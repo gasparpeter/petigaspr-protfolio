@@ -1,0 +1,88 @@
+#main-section .mid-sec {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#main-section .mid-sec .project {
+  min-width: 55vh;
+  height: 35vh;
+  background-color: #594AA3;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-section .mid-sec .project .project-pic {
+  width: 100%;
+  height: 80%;
+}
+
+#main-section .mid-sec .project #notes {
+  background-image: url(../../img/notes.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#main-section .mid-sec .project #trip {
+  background-image: url(../../img/trip.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#main-section .mid-sec .project #deal {
+  background-image: url(../../img/deals.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+#main-section .mid-sec .project #skillboard {
+  background-image: url(../../img/skillboard.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+#main-section .mid-sec .project .project-title {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-section .mid-sec .project .project-title h2 {
+  font-weight: 100;
+  color: #fff;
+}
+
+@media only screen and (max-width: 540px) {
+  #main-section .mid-sec {
+    padding: 0;
+  }
+  #main-section .mid-sec .project {
+    min-width: 95%;
+    height: 45vh;
+  }
+}
+/*# sourceMappingURL=uidesign.css.map */
